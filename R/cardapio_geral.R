@@ -1,3 +1,7 @@
+#' Cardápio da semana no RU
+#'
+#' @export
+#'
 cardapio_geral <- function() {
 
   url <- "http://www.ru.uem.br/cardapio-1"
