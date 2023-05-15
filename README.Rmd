@@ -1,0 +1,46 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# RU
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Pra que acessar o site do RU se você pode buscar o cardápio direto pelo R??
+
+## Instalação
+
+Baixe o pacote usando a função:
+
+``` r
+# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(RU)
+
+cardapio_geral()
+```
+
+```{r}
+cardapio_dia("segunda-feira")
+
+cardapio_dia("segunda")
+```
+
