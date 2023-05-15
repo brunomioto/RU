@@ -25,12 +25,20 @@ Pra que acessar o site do RU se você pode buscar o cardápio direto pelo R??
 Baixe o pacote usando a função:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+if (!requireNamespace("remotes"), quietly = TRUE)){
+  install.packages("remotes")}
+    
+remotes::install_github("brunomioto/RU")
 ```
 
-## Example
+## Exemplo
 
-This is a basic example which shows you how to solve a common problem:
+É possível buscar o cardápio semanal do RU:
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+devtools::load_all()
+```
+
 
 ```{r example}
 library(RU)
@@ -38,6 +46,8 @@ library(RU)
 cardapio_geral()
 ```
 
+
+Ou então buscar por algum dia em específico (é possível utilizar variações dos dias, como: `segunda-feira`, `segunda feira`, `segunda` e `seg`)
 ```{r}
 cardapio_dia("segunda-feira")
 

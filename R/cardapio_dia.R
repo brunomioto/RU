@@ -29,7 +29,7 @@ cardapio_dia <- function(dia_semana) {
   )
   if (dia_semana %in% c("segunda", "segunda-feira", "segunda feira", "seg")) {
     cat(cardapio_geral$cardapio[1])
-  } else if (dia_semana %in% c("terça", "terça-feira", "terca", "terca-feira")) {
+  } else if (dia_semana %in% c("terça", "terça-feira", "terca", "ter", "terca-feira")) {
     cat(cardapio_geral$cardapio[2])
   } else if (dia_semana %in% c("quarta", "quarta-feira", "qua", "quarta feira")) {
     cat(cardapio_geral$cardapio[3])
