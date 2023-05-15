@@ -9,7 +9,7 @@ Authors@R:
            email = "brunomioto97@gmail.com",
            comment = c(ORCID = "0000-0002-3524-537X"))
 Description: Agora é possível buscar o cardápio semanal ou diário pelo pacote RU
-License: What license is it under?
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
