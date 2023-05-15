@@ -1,11 +1,14 @@
 Package: RU
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Pacote de busca do cardápio do RU-UEM
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Authors@R: 
+    person(given = "Bruno",
+           family = "Mioto",
+           role = c("aut", "cre"),
+           email = "brunomioto97@gmail.com",
+           comment = c(ORCID = "0000-0002-3524-537X"))
+Description: Agora é possível buscar o cardápio semanal ou diário pelo pacote RU
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
