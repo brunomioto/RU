@@ -1,20 +1,20 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# RU
+# RU - UEM
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-Pra que acessar o site do RU se você pode buscar o cardápio direto pelo
-R??
+Pra que acessar o site do RU-UEM se você pode buscar o cardápio direto
+pelo R??
 
 ## Instalação
 
 Baixe o pacote usando a função:
 
 ``` r
-if (!requireNamespace("remotes"), quietly = TRUE)){
+if (!requireNamespace("remotes"), quietly = TRUE){
   install.packages("remotes")}
     
 remotes::install_github("brunomioto/RU")
