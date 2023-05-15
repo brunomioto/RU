@@ -14,5 +14,6 @@ Imports:
     dplyr,
     magrittr,
     rvest
-URL: https://github.com/brunomioto/RU
+URL: https://github.com/brunomioto/RU,
+    https://brunomioto.github.io/RU/
 BugReports: https://github.com/brunomioto/RU/issues
