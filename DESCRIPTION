@@ -16,7 +16,8 @@ RoxygenNote: 7.2.3
 Imports: 
     dplyr,
     magrittr,
-    rvest
+    rvest,
+    stringr
 URL: https://github.com/brunomioto/RU,
     https://brunomioto.github.io/RU/
 BugReports: https://github.com/brunomioto/RU/issues
