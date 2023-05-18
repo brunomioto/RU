@@ -2,5 +2,5 @@
 
 export("%>%")
 export(cardapio_dia)
-export(cardapio_geral)
+export(cardapio_semana)
 importFrom(magrittr,"%>%")

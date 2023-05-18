@@ -2,7 +2,7 @@
 #'
 #' @export
 #'
-cardapio_geral <- function() {
+cardapio_semana <- function() {
 
   url <- "http://www.ru.uem.br/cardapio-1"
 
@@ -27,6 +27,8 @@ cardapio_geral <- function() {
   )
 
 
-  cat(cardapio_geral$cardapio,sep = "\n-----\n")
+  resultado <- stringr::str_view(cardapio_geral$cardapio)
+
+  return(resultado)
 
 }

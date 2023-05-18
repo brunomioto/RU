@@ -28,16 +28,19 @@ cardapio_dia <- function(dia_semana) {
                  table[[sex]]$X1[1])
   )
   if (dia_semana %in% c("segunda", "segunda-feira", "segunda feira", "seg")) {
-    cat(cardapio_geral$cardapio[1])
+    resultado <- stringr::str_view(cardapio_geral$cardapio[1])
   } else if (dia_semana %in% c("terça", "terça-feira", "terca", "ter", "terca-feira")) {
-    cat(cardapio_geral$cardapio[2])
+    resultado <- stringr::str_view(cardapio_geral$cardapio[2])
   } else if (dia_semana %in% c("quarta", "quarta-feira", "qua", "quarta feira")) {
-    cat(cardapio_geral$cardapio[3])
+    resultado <- stringr::str_view(cardapio_geral$cardapio[3])
   } else if (dia_semana %in% c("quinta", "quinta-feira", "quinta feira", "qui")) {
-    cat(cardapio_geral$cardapio[4])
+    resultado <- stringr::str_view(cardapio_geral$cardapio[4])
   } else if (dia_semana %in% c("sexta", "sexta-feira", "sexta feira", "sex")) {
-    cat(cardapio_geral$cardapio[5])
+    resultado <- stringr::str_view(cardapio_geral$cardapio[5])
   } else {
-    cat("Não há cardápio disponível para o dia informado.")
+    resultado <- stringr::str_view("Não há cardápio disponível para o dia informado.")
   }
+
+  return(resultado)
+
 }
