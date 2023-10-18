@@ -26,7 +26,9 @@ cardapio_dia <- function(dia_semana) {
                  table[[qua]]$X1[1],
                  table[[qui]]$X1[1],
                  table[[sex]]$X1[1])
-  )
+  ) %>%
+    dplyr::mutate(cardapio = stringr::str_remove_all(cardapio, "\u00a0"))
+
   if (dia_semana %in% c("segunda", "segunda-feira", "segunda feira", "seg")) {
     resultado <- stringr::str_view(cardapio_geral$cardapio[1])
   } else if (dia_semana %in% c("terça", "terça-feira", "terca", "ter", "terca-feira")) {
